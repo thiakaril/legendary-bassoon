@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T00:00:00Z",
+  "title": "Design System: Hruno",
+  "extensions": {
+    "colorMeta": {
+      "lunar-black": {
+        "role": "neutral",
+        "displayName": "Lunar Black",
+        "canonical": "#111111",
+        "tonalRamp": [
+          "#0a0a0a",
+          "#111111",
+          "#161616",
+          "#1c1c1c",
+          "#252525",
+          "#363636",
+          "#4a4a4a",
+          "#6b6b6b"
+        ]
+      },
+      "tile": {
+        "role": "neutral",
+        "displayName": "Board Tile",
+        "canonical": "#1c1c1c",
+        "tonalRamp": [
+          "#0a0a0a",
+          "#111111",
+          "#161616",
+          "#1c1c1c",
+          "#252525",
+          "#363636",
+          "#4a4a4a",
+          "#6b6b6b"
+        ]
+      },
+      "panel-deep": {
+        "role": "neutral",
+        "displayName": "Panel Deep",
+        "canonical": "#161616",
+        "tonalRamp": [
+          "#0a0a0a",
+          "#111111",
+          "#161616",
+          "#1c1c1c",
+          "#252525",
+          "#363636",
+          "#4a4a4a",
+          "#6b6b6b"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised Neutral",
+        "canonical": "#252525",
+        "tonalRamp": [
+          "#111111",
+          "#1c1c1c",
+          "#252525",
+          "#363636",
+          "#4a4a4a",
+          "#5e5e5e",
+          "#777777",
+          "#8f8f8f"
+        ]
+      },
+      "strong": {
+        "role": "neutral",
+        "displayName": "Strong Neutral",
+        "canonical": "#363636",
+        "tonalRamp": [
+          "#111111",
+          "#1c1c1c",
+          "#252525",
+          "#363636",
+          "#4a4a4a",
+          "#5e5e5e",
+          "#777777",
+          "#8f8f8f"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Warm Ink",
+        "canonical": "#f2f2f2",
+        "tonalRamp": [
+          "#6b6b6b",
+          "#8f8f8f",
+          "#b0b0b0",
+          "#c7c7c7",
+          "#d6d6d6",
+          "#e4e4e4",
+          "#f2f2f2",
+          "#fafafa"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Grey",
+        "canonical": "#8f8f8f",
+        "tonalRamp": [
+          "#1c1c1c",
+          "#2e2e2e",
+          "#454545",
+          "#5e5e5e",
+          "#777777",
+          "#8f8f8f",
+          "#b0b0b0",
+          "#d6d6d6"
+        ]
+      },
+      "bronze": {
+        "role": "primary",
+        "displayName": "Aged Bronze",
+        "canonical": "#a08672",
+        "tonalRamp": [
+          "#2b211a",
+          "#45352a",
+          "#624b3b",
+          "#7d604c",
+          "#99785f",
+          "#a08672",
+          "#bd9f89",
+          "#d8c2b1"
+        ]
+      },
+      "bronze-hover": {
+        "role": "primary",
+        "displayName": "Aged Bronze, Lifted",
+        "canonical": "#b39a85",
+        "tonalRamp": [
+          "#2b211a",
+          "#45352a",
+          "#624b3b",
+          "#7d604c",
+          "#99785f",
+          "#b39a85",
+          "#c8b09c",
+          "#ddcbbd"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Wordmark Display",
+        "purpose": "The HRUNO name band only; one line, tight leading, left aligned."
+      },
+      "headline": {
+        "displayName": "Board Headline",
+        "purpose": "Section statements and the closing CTA heading."
+      },
+      "title": {
+        "displayName": "Tile Title",
+        "purpose": "Feature, stage, record, FAQ and question titles."
+      },
+      "lead": {
+        "displayName": "Hero Lead",
+        "purpose": "The hero statement; the only long passage at this size."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Explanations, product detail and marketing paragraphs."
+      },
+      "ui": {
+        "displayName": "Interface",
+        "purpose": "Buttons, rail values, row labels and copilot controls."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Status chips, dates and small captions."
+      },
+      "micro": {
+        "displayName": "Micro",
+        "purpose": "Sample labels, footer credits and the smallest product chrome."
+      },
+      "rail-value": {
+        "displayName": "Rail Value",
+        "purpose": "The large value in a hero rail tile."
+      },
+      "marquee": {
+        "displayName": "Marquee",
+        "purpose": "The single running line between hero and product."
+      },
+      "footer-mark": {
+        "displayName": "Footer Mark",
+        "purpose": "The five-block Hruno wordmark."
+      },
+      "footer-mark-mobile": {
+        "displayName": "Footer Mark, Mobile",
+        "purpose": "The 3rem footer wordmark step at ≤760px."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+        "purpose": "The one easing family for state transitions, record opening and the hero board seat."
+      },
+      {
+        "name": "duration-fast",
+        "value": "180ms",
+        "purpose": "Hover and focus colour changes."
+      },
+      {
+        "name": "duration-state",
+        "value": "220ms",
+        "purpose": "Record row background and selected-state change."
+      },
+      {
+        "name": "duration-record",
+        "value": "320ms",
+        "purpose": "The open record note rises into place."
+      },
+      {
+        "name": "duration-seat",
+        "value": "420ms",
+        "purpose": "The hero board seat: nav tiles, copilot rows and waitlist tile."
+      },
+      {
+        "name": "stagger-seat",
+        "value": "40–300ms",
+        "purpose": "Stagger across the hero board seat; settled under one second."
+      },
+      {
+        "name": "duration-photo",
+        "value": "26s / 30s",
+        "purpose": "Very slow alternating drift inside the two clipped photographic frames."
+      },
+      {
+        "name": "duration-marquee",
+        "value": "34s",
+        "purpose": "The single running line between hero and product; pauses on hover."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "feature-2col",
+        "value": "1100px"
+      },
+      {
+        "name": "stack-center",
+        "value": "900px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "compact-record",
+        "value": "620px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The waitlist action: a square bronze block with lunar-black text and a 48px hit area.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">Join the waitlist <span aria-hidden=\"true\">→</span></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 22px; border: 0; border-radius: 0; background: #a08672; color: #111111; font-family: 'General Sans', ui-sans-serif, system-ui, sans-serif; font-size: 16px; font-weight: 500; line-height: 1; cursor: pointer; transition: background-color 180ms cubic-bezier(0.2, 0.7, 0.2, 1); } .ds-btn-primary:hover { background: #b39a85; } .ds-btn-primary:focus-visible { outline: 2px solid #a08672; outline-offset: 3px; }"
+    },
+    {
+      "name": "Inverse Button",
+      "kind": "button",
+      "refersTo": "button-inverse",
+      "description": "The same button on the bronze CTA panel: lunar-black ground, bronze text.",
+      "html": "<button class=\"ds-btn-inverse\" type=\"button\">Join the waitlist <span aria-hidden=\"true\">→</span></button>",
+      "css": ".ds-btn-inverse { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 22px; border: 0; border-radius: 0; background: #111111; color: #a08672; font-family: 'General Sans', ui-sans-serif, system-ui, sans-serif; font-size: 16px; font-weight: 500; line-height: 1; cursor: pointer; transition: background-color 180ms cubic-bezier(0.2, 0.7, 0.2, 1), color 180ms cubic-bezier(0.2, 0.7, 0.2, 1); } .ds-btn-inverse:hover { background: #363636; color: #f2f2f2; } .ds-btn-inverse:focus-visible { outline: 2px solid #111111; outline-offset: 3px; }"
+    },
+    {
+      "name": "Secondary Link",
+      "kind": "button",
+      "description": "The demo action: a text link with an arrow, never a second filled button.",
+      "html": "<a class=\"ds-link-arrow\" href=\"mailto:hello@hruno.ai.id\">Book a demo <span aria-hidden=\"true\">→</span></a>",
+      "css": ".ds-link-arrow { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; color: #f2f2f2; font-family: 'General Sans', ui-sans-serif, system-ui, sans-serif; font-size: 16px; font-weight: 500; text-decoration: none; cursor: pointer; transition: color 180ms cubic-bezier(0.2, 0.7, 0.2, 1); } .ds-link-arrow span { transition: transform 180ms cubic-bezier(0.2, 0.7, 0.2, 1); } .ds-link-arrow:hover { color: #a08672; } .ds-link-arrow:hover span { transform: translateX(3px); } .ds-link-arrow:focus-visible { outline: 2px solid #a08672; outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation Tile",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "One of four equal 60px tiles across the hero; flat, square and quiet until hover.",
+      "html": "<a class=\"ds-nav-tile\" href=\"#product\">Product</a>",
+      "css": ".ds-nav-tile { display: flex; align-items: center; min-height: 60px; padding: 0 18px; background: #1c1c1c; color: #f2f2f2; font-family: 'General Sans', ui-sans-serif, system-ui, sans-serif; font-size: 16px; font-weight: 500; text-decoration: none; transition: background-color 180ms cubic-bezier(0.2, 0.7, 0.2, 1); } .ds-nav-tile:hover { background: #252525; } .ds-nav-tile:focus-visible { outline: 2px solid #a08672; outline-offset: 3px; }"
+    },
+    {
+      "name": "Board Tile",
+      "kind": "card",
+      "refersTo": "board-tile",
+      "description": "The unit of the whole system: flat, square, tonal, with a label and a value.",
+      "html": "<div class=\"ds-board-tile\"><span>Modules</span><strong>5</strong></div>",
+      "css": ".ds-board-tile { display: flex; flex-direction: column; justify-content: space-between; gap: 24px; min-height: 132px; padding: clamp(20px, 2.4vw, 36px); background: #1c1c1c; color: #f2f2f2; font-family: 'General Sans', ui-sans-serif, system-ui, sans-serif; } .ds-board-tile span { color: #8f8f8f; font-size: 16px; font-weight: 400; } .ds-board-tile strong { font-size: 24px; font-weight: 500; line-height: 1; letter-spacing: -0.02em; }"
+    },
+    {
+      "name": "Selected Chip",
+      "kind": "chip",
+      "refersTo": "chip-selected",
+      "description": "The active copilot prompt: a bronze rectangle, not a pill.",
+      "html": "<button class=\"ds-chip-selected\" type=\"button\" aria-pressed=\"true\">Who's on leave next week?</button>",
+      "css": ".ds-chip-selected { max-width: 28ch; padding: 8px 10px; overflow: hidden; border: 0; border-radius: 0; background: #a08672; color: #111111; font-family: 'General Sans', ui-sans-serif, system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1.2; text-align: left; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; } .ds-chip-selected:focus-visible { outline: 2px solid #f2f2f2; outline-offset: 3px; }"
+    },
+    {
+      "name": "Attention Status",
+      "kind": "chip",
+      "refersTo": "status-attention",
+      "description": "A pending or review state: bronze ground, lunar-black label, square corners.",
+      "html": "<span class=\"ds-status-attention\">Pending</span>",
+      "css": ".ds-status-attention { display: inline-flex; align-items: center; min-height: 28px; padding: 7px 9px; background: #a08672; color: #111111; font-family: 'General Sans', ui-sans-serif, system-ui, sans-serif; font-size: 14px; font-weight: 500; line-height: 1; white-space: nowrap; }"
+    },
+    {
+      "name": "Record Row",
+      "kind": "custom",
+      "refersTo": "record-row",
+      "description": "The records-board row: 76px, flat tile, selected state bronze, no stripes.",
+      "html": "<button class=\"ds-record-row\" type=\"button\" aria-expanded=\"false\"><span class=\"ds-record-name\">Bima Pratama</span><span class=\"ds-record-module\">Leave</span><span class=\"ds-record-detail\">22–24 Oct · 3 days</span><span class=\"ds-status-attention\">Pending</span></button>",
+      "css": ".ds-record-row { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 1.1fr) minmax(0, 2.2fr) auto; gap: 18px; align-items: center; width: 100%; min-height: 76px; padding: 16px 24px; border: 0; border-radius: 0; background: #1c1c1c; color: #f2f2f2; font-family: 'General Sans', ui-sans-serif, system-ui, sans-serif; text-align: left; cursor: pointer; transition: background-color 220ms cubic-bezier(0.2, 0.7, 0.2, 1); } .ds-record-row:hover { background: #252525; } .ds-record-row:focus-visible { outline: 2px solid #a08672; outline-offset: -2px; } .ds-record-name { overflow: hidden; font-size: 28px; font-weight: 500; line-height: 1.1; letter-spacing: -0.03em; text-overflow: ellipsis; white-space: nowrap; } .ds-record-module, .ds-record-detail { overflow: hidden; color: #8f8f8f; font-size: 16px; text-overflow: ellipsis; white-space: nowrap; } .ds-status-attention { justify-self: end; padding: 7px 9px; background: #a08672; color: #111111; font-size: 14px; font-weight: 500; line-height: 1; white-space: nowrap; }"
+    },
+    {
+      "name": "Copilot Panel",
+      "kind": "custom",
+      "description": "The signature product surface: bar, prompt row, answer, named rows and one action that changes the record.",
+      "html": "<div class=\"ds-copilot\"><div class=\"ds-copilot-bar\"><span class=\"ds-copilot-mark\">H</span><strong>Hruno Copilot</strong><span class=\"ds-copilot-sample\">Sample workspace</span></div><div class=\"ds-copilot-prompts\"><button class=\"ds-copilot-prompt is-active\" type=\"button\" aria-pressed=\"true\">Who's on leave next week?</button><button class=\"ds-copilot-prompt\" type=\"button\" aria-pressed=\"false\">What's blocking payroll?</button></div><p class=\"ds-copilot-text\">Three people are out next week. Thursday leaves the Jakarta support desk one person short.</p><div class=\"ds-copilot-row\"><span class=\"ds-copilot-avatar\">AL</span><span>Ayu Lestari</span><span class=\"ds-copilot-tag\">Leave</span><span class=\"ds-copilot-detail\">21–25 Oct</span></div><div class=\"ds-copilot-row\"><span class=\"ds-copilot-avatar\">BP</span><span>Bima Pratama</span><span class=\"ds-copilot-tag\">Leave</span><span class=\"ds-copilot-detail\">22–24 Oct</span></div><button class=\"ds-copilot-action\" type=\"button\">Approve 2 requests <span aria-hidden=\"true\">→</span></button><p class=\"ds-copilot-note\">Sample only — no live data changes.</p></div>",
+      "css": ".ds-copilot { display: flex; flex-direction: column; min-width: 0; background: #161616; color: #f2f2f2; font-family: 'General Sans', ui-sans-serif, system-ui, sans-serif; } .ds-copilot-bar { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 16px; background: #1c1c1c; } .ds-copilot-mark { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; background: #a08672; color: #111111; font-size: 13px; font-weight: 700; line-height: 1; } .ds-copilot-bar strong { font-size: 16px; font-weight: 500; } .ds-copilot-sample { margin-left: auto; color: #8f8f8f; font-size: 13px; } .ds-copilot-prompts { display: flex; gap: 8px; padding: 8px 16px; overflow-x: auto; } .ds-copilot-prompt { flex: 0 0 auto; padding: 8px 10px; border: 0; border-radius: 0; background: transparent; color: #8f8f8f; font: inherit; font-size: 14px; font-weight: 500; white-space: nowrap; cursor: pointer; } .ds-copilot-prompt.is-active { background: #a08672; color: #111111; } .ds-copilot-text { max-width: 58ch; margin: 0; padding: 16px 22px 0; font-size: 18px; line-height: 1.35; letter-spacing: -0.01em; } .ds-copilot-row { display: grid; grid-template-columns: 30px minmax(0, 1.4fr) minmax(0, 1fr) auto; gap: 10px; align-items: center; min-height: 36px; margin: 4px 22px 0; padding-right: 10px; background: #1c1c1c; font-size: 16px; } .ds-copilot-avatar { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; background: #363636; font-size: 13px; font-weight: 500; } .ds-copilot-tag, .ds-copilot-detail { color: #8f8f8f; font-size: 13px; } .ds-copilot-action { align-self: flex-start; margin: 18px 22px 0; padding: 0; border: 0; background: transparent; color: #a08672; font: inherit; font-size: 16px; font-weight: 500; cursor: pointer; } .ds-copilot-action:hover { color: #b39a85; } .ds-copilot-action:focus-visible { outline: 2px solid #a08672; outline-offset: 3px; } .ds-copilot-note { margin: 8px 22px 18px; color: #8f8f8f; font-size: 13px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Well-Kept Board",
+    "overview": "Hruno's public surface is an HR record you can read at a glance, not a software brochure. The page is a dark operations board: flat tiles of equal weight, tight 8px gutters, one white display wordmark, and photographs pinned into the board like evidence. The product interface is the imagery. Real HTML fragments show a copilot, a leave week, an attendance exception list, a payroll run, a hiring pipeline and a people record. The board looks maintained because every tile has a job.\n\nThe palette is deliberately almost monochrome. Lunar black is the field; four close neutral steps let tiles recede or lift without shadows. Bronze is an event: it appears on the waitlist action, a selected row, an active filter or an attention state, and almost nowhere else. The one exception is the small H mark that opens a product panel, which works as a maker's stamp.\n\nThe writing is bilingual, specific and unadorned. English and Indonesian are written as peers, not as a translation layer. Claims stay inside what a pre-launch product can honestly show: a sample workspace, a waitlist, a demo link, and product views explicitly labelled as sample data.",
+    "keyCharacteristics": [
+      "Flat tonal tiles on a lunar-black field, separated by 8px gaps.",
+      "Square corners everywhere; no borders, gradients, resting shadows or glass.",
+      "General Sans at a wide scale, from a 14.4vw wordmark to 13px UI metadata.",
+      "Product UI as the main imagery, with two credited black-and-white architectural photographs as atmosphere.",
+      "Bronze reserved for action, selection, attention and the small H mark.",
+      "One orchestrated hero-board seat, one copilot approval moment, two slowly drifting photographs and a single marquee."
+    ],
+    "rules": [
+      {
+        "name": "The Bronze Is an Event Rule",
+        "body": "Bronze marks an action, a selection, an attention state or the small H mark. Never use it as a decorative fill for a marquee, footer letter, chart series, card background or heading. If a surface needs emphasis without interaction, use ink or a neutral tonal step.",
+        "section": "colors"
+      },
+      {
+        "name": "The Flat-by-Default Rule",
+        "body": "No box shadows, gradients, glows or blurred glass at rest. If a surface needs to rise, change its neutral step or its position in the grid, not its shadow.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Authored Moment Rule",
+        "body": "A control must visibly change the record it names. The copilot's Approve action stamps the two named leave rows and labels itself as a sample; it never pretends to write live data.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Sample-Data Rule",
+        "body": "Every product view is labelled at the point of use: Sample workspace, sample data or data contoh. The same workspace stays internally consistent across the copilot, feature fragments and records board.",
+        "section": "components"
+      },
+      {
+        "name": "The One Face Rule",
+        "body": "Use General Sans 400, 500 and 700 only. Do not add a serif, mono, handwriting or decorative display face.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use 8px page gutters and tile gaps at desktop, 6px at ≤760px, and 4px between rows inside a board.",
+      "Do keep every corner at 0 and every resting surface flat.",
+      "Do reserve bronze for the primary action, selected state, attention state and the small H mark.",
+      "Do use the neutral ladder (#111111 → #1c1c1c → #252525 → #363636) to create depth.",
+      "Do set product UI in real HTML fragments with consistent names, numbers and dates from one sample workspace.",
+      "Do label every synthetic product view and credit both photographs.",
+      "Do write English and Indonesian as separate, idiomatic copies with the same facts."
+    ],
+    "donts": [
+      "Don't add gradients, neon, glass, blurred cards, rounded corners, drop shadows or decorative outlines.",
+      "Don't use bronze as a background for marquees, footer letters, charts, stats or decorative squares.",
+      "Don't invent customers, testimonials, logos, pricing, benchmarks, compliance certifications or live-product claims.",
+      "Don't show a dashboard, metric or record without a sample-data label.",
+      "Don't let the copilot contradict the record: no one-person-short beside +1 cover, no Approve 2 beside an already-approved request, no Ready to lock beside blocked payroll.",
+      "Don't use a generic fade-up on every section; keep motion to the hero board seat, copilot approval, two drifting photographs and the marquee.",
+      "Don't use purple-blue AI gradients, sparkle icons or a second accent to signal intelligence."
+    ]
+  }
+}
