@@ -28,7 +28,8 @@ Before the first deployment:
 
 1. Open **Settings → Pages** in the GitHub repository.
 2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-3. Merge to `main`.
+3. Set `main` as the default branch under **Settings → General** if it is not already.
+4. Merge to `main`.
 
 Project pages are served under `/<repo>/`; the workflow passes the Pages `base_path` to Nuxt as `NUXT_APP_BASE_URL`, so scripts, styles, fonts and images resolve correctly. User/organization pages and custom domains use `/` and need no extra configuration.
 
